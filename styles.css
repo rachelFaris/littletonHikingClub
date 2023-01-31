@@ -1,0 +1,243 @@
+/* 
+font-family: 'Crimson Text', serif;
+font-family: 'Open Sans', sans-serif; 
+font-family: 'Itim', cursive;
+*/
+
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #118AB2;
+    margin: 0;
+    font-size: 16px;
+}
+
+/* fake class to visualize colors: */
+.color {
+    background-color: #EF476F;
+    background-color: #FFD166;
+    background-color: #06D6A0;
+    background-color: #118AB2;
+    background-color: #073B4C;    
+}
+
+/* nav: */
+
+.bar {
+    padding: 1rem;
+    background-color: #073B4C;
+    color: #FFD166;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+}
+
+li {
+    display: inline;
+    margin: 0 3rem;
+    font-size: 1.1rem;
+    letter-spacing: .1rem;
+}
+
+.bar a {
+ color: #FFD166; 
+ text-decoration: none;  
+}
+
+nav a:hover {
+    color: #06D6A0;
+}
+
+/* intro section */
+
+.intro {
+    margin-top: 5rem;
+    height: 30rem;
+    background-image: url(images/lg-kristjan-kotar--h15p84GY5k-unsplash.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.intro h1 {
+    /* color: #EF476F; */
+    color: #073B4C;
+    font-size: 2.5rem;
+    font-family: 'Itim', cursive;
+    text-align: center;
+    padding-top: 7.25rem;
+    text-shadow: 0px 0px 5px #FFD166, 0px 0px 5px #FFD166;
+    /* text-shadow: 0px 0px 5px #FFD166; */
+}
+
+h1 .highlight {
+    color: #EF476F;
+    font-size: 3rem;
+    font-style: italic;
+}
+
+/* summary */
+
+.summary {
+    padding: 2rem 4rem;  
+}
+
+.summary h2 {
+    color: #FFD166;
+    font-size: 2rem;
+}
+
+/* playing with multi-colored periods: */
+.color-one-highlight {
+    color: #06D6A0;
+}
+.color-two-highlight {
+    color: #06D6A0;
+}
+.color-three-highlight {
+    color: #06D6A0; 
+}
+.color-four-highlight {
+    color: #06D6A0;  
+}
+
+.summary p {
+    color: white;
+    font-size: large;
+    font-weight: 500;
+    /* text-shadow: 1px 1px 1px #FFD166; */
+}
+
+.summary a { 
+    text-decoration: none;
+    font-style: italic;
+    color: #06D6A0;
+}
+
+.summary a:hover {
+    color: #FFD166;
+}
+
+/* photos */
+
+.photos, .classes-container {
+    display: flex;
+    min-height: auto;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-bottom: 3rem;
+}
+
+.img-size {
+    margin:  3rem auto;
+    width: 24rem;
+    border: 2px solid #06D6A0;
+    border-radius: .75rem;
+}
+
+/* classes */
+
+.classes {
+    background-color: #FFD166;
+    color: #EF476F;
+    height: auto;
+    padding-top: 3rem;
+    padding-left: 3rem;
+}
+
+.classes h2 {
+    font-size: 2rem;
+    color: #073B4C;
+}
+
+.class-item {
+    border: 2px solid #06D6A0;
+    border-radius: .75rem;
+    min-width: 14.5rem;
+    min-height: 8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem 5rem;
+    padding: 1rem 0 2rem 0;
+    background-color: #ffd678;
+}
+
+/* color of icon changed in svg file under "fill" at top of file in SVG element tag */
+
+.icon-rope, 
+.icon-backpack, 
+.icon-first-aid,
+.icon-map {
+    padding-top: 1rem;
+    width: 3rem;  
+}
+
+.icon-mountain {
+    width: 4rem;  
+}
+
+.classes a {
+    text-decoration: none;
+    color: #EF476F;
+}
+
+.classes a:hover {
+    /* playing with box shadows (mdn examples): */
+    /* box-shadow: 60px -16px teal; */
+    /* box-shadow: 10px 5px 5px red; */
+    /* box-shadow: inset 5em 1em gold; */
+    /* box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2); */
+    /* box-shadow: 3px 3px #118AB2, -1em 0 .4em #EF476F; */
+    box-shadow: .1em -.1em .7em #118AB2, -.2em .2em .6em #EF476F;
+    background-color: #ffd678;
+}
+
+.color {
+    background-color: #EF476F;
+    background-color: #FFD166;
+    background-color: #06D6A0;
+    background-color: #118AB2;
+    background-color: #073B4C;    
+}
+
+/* join */
+
+.join img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+
+.join h2,
+.join h3 {
+    padding: 2rem 4rem; 
+    text-align: center;
+}
+
+.join h2 {
+    font-size: 2rem;
+    color: #06D6A0;
+}
+
+.join h3 {
+    font-size: 1.5rem;
+    color: #06D6A0;
+}
+
+/* footer */
+
+.footer-bar {
+    background-color: #073B4C;
+    color: #FFD166;
+    padding: 1rem 2rem;
+}
+
+ @media only screen and (max-width: 650px) { 
+    .bar li {
+      display: block;
+    }
+  } 
