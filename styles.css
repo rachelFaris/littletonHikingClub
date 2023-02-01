@@ -236,8 +236,60 @@ h1 .highlight {
     padding: 1rem 2rem;
 }
 
- @media only screen and (max-width: 650px) { 
+ @media only screen and (max-width: 1024px) { 
+
     .bar li {
       display: block;
+    }
+
+    .intro h1 {
+        font-size: 2.0rem;
+    }
+    h1 .highlight {
+        font-size: 2.0rem; 
+    }
+    .summary h2 {
+        font-size: 1.75rem;
+    }
+    .classes h2 {
+        font-size: 1.75rem;
+    }
+    .join h2 {
+        font-size: 1.75rem;
+    }
+  } 
+
+  @media only screen and (max-width: 280px) { 
+    body, .intro {
+        margin: 0;
+        padding: 0;
+        height: auto;
+        max-width: 270px;
+    }
+    .bar li {
+      display: block;
+    }
+    .intro h1 {
+        font-size: 1.2rem;
+        text-align: center;
+    }
+    h1 .highlight {
+        font-size: 1.2rem; 
+    }
+    .summary h2 {
+        font-size: 1.2rem;
+    }
+    .img-size {
+        max-width: 260px;
+        margin: .5rem;
+    }
+    .classes h2 {
+        font-size: 1.2rem;
+    }
+    .class-item {
+        max-width: 260px;
+    }
+    .join h2 {
+        font-size: 1.2rem;
     }
   } 
